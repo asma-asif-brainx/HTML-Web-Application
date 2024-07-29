@@ -1,3 +1,6 @@
+body{
+    background-image: url("images/background.jpg");
+}
 
 .header-png{
     height: 220px;
@@ -5,7 +8,7 @@
 }
 
 .nav-head{
-   text-align: -webkit-center;
+   text-align: center;
    font-size: 16px;
 }
 
@@ -20,9 +23,7 @@
     font-size:24;
 }
 
-
-.container-graphics  {
-    overflow: hidden; 
+.container-graphics  { 
     text-align: center; 
 }
 
@@ -39,7 +40,6 @@
     margin: 0px; 
     font-size: 16px;
 }
-
 
 .draw-para{
     width: 1400px;
@@ -58,18 +58,10 @@
     text-decoration: underline; 
 }
 
-
 .sub-head-2{
     text-decoration: underline;
     text-align: center;
     font-size: 24px;
-}
-
-
-
-
-.container-web  {
-    overflow: hidden; 
 }
 
 .html-img{
@@ -78,7 +70,6 @@
     height: 220px;
     margin: 0px;
 }
-
 
 .html-para-1,.html-para-2 , .html-para-3 {
     width: 1120px;
@@ -89,7 +80,6 @@
 .html-para-1 b,.html-para-2 b, .html-para-3 b{
     text-decoration: underline; 
 }
-
 
 .footer-img{
     width: 100%;
