@@ -1,9 +1,11 @@
-body{
-    background-image: url("images/background.jpg");
+.container{
+    background-image: url("images/background.webp");
 }
 
-.header-png{
-    height: 220px;
+.header{
+    max-height: 220px;
+    height: 100%;
+    max-width: 100%;
     width: 100%;
 }
 
@@ -13,5 +15,6 @@ body{
 }
 
 .footer-img{
+    max-width: 100%;
     width: 100%;
 }

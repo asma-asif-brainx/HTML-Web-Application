@@ -1,9 +1,11 @@
-body{
-    background-image: url("images/background.jpg");
+.container{
+    background-image: url("images/background.webp");
 }
 
-.header-png{
-    height: 220px;
+.header{
+    max-height: 220px;
+    height: 100%;
+    max-width: 100%;
     width: 100%;
 }
 
@@ -27,33 +29,39 @@ body{
     text-align: center; 
 }
 
-.java-img{
+.java01{
     float:left;
-    width: 290px;
-    height: 190px;
+    max-width:  290px;
+    width: 100%;
+    min-height: 190px;
+    height:100% ;
     margin: 0px;
 }
 
 .adobe-para{
-    width: 1400px;
+    max-width:1400px ;
+    width: 100%;
     text-align: left; 
     margin: 0px; 
     font-size: 16px;
 }
 
 .draw-para{
-    width: 1400px;
+    max-width:1400px ;
+    width: 100%;
     text-align: left; 
     margin: 0px; 
     font-size: 16px;
 }
 
 .illustrator-para{
-    width: 1400px;
+    max-width:1400px ;
+    width: 100%;
     text-align: left; 
     margin: 0px; 
     font-size: 16px;
 }
+
 .illustrator-para b, .draw-para b, .adobe-para b {
     text-decoration: underline; 
 }
@@ -64,23 +72,40 @@ body{
     font-size: 24px;
 }
 
-.html-img{
+.html01{
     float:right;
-    width: 300px;
-    height: 220px;
+    max-width:300px ;
+    width:100% ;
+    min-height: 220px ;
+    height:100%;
     margin: 0px;
 }
 
 .html-para-1,.html-para-2 , .html-para-3 {
-    width: 1120px;
+    max-width:1120px ;
+    width:100% ;
     text-align: left; 
     margin: 0px; 
     font-size: 16px;
 }
+
 .html-para-1 b,.html-para-2 b, .html-para-3 b{
     text-decoration: underline; 
 }
 
+.line-break
+{
+    opacity: 0;
+    margin: auto;
+    min-height: 15px;
+    height: 100%;
+}
+
+.bold{
+    font-weight:bold;
+}
+
 .footer-img{
+    max-width: 100%;
     width: 100%;
 }

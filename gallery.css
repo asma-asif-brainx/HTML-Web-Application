@@ -1,9 +1,11 @@
-body{
-    background-image: url("images/background.jpg");
+.container{
+    background-image: url("images/background.webp");
 }
 
-.header-png{
-    height: 220px;
+.header{
+    max-height: 220px;
+    height: 100%;
+    max-width: 100%;
     width: 100%;
 }
 
@@ -18,17 +20,19 @@ body{
     text-align: center;
 }
 
-.images{
+.gallery{
     text-align: center;
 }
 
-.png1, .png2, .png3, .png4{
-    width: 250px ;
-    height: 200px;
-
+.sea, .butterfly, .html01, .java01{
+    max-width: 250px;
+    width: 100% ;
+    min-height: 200px;
+    height: 100%;
     border:5px solid blue;
 }
 
 .footer-img{
+    max-width: 100%;
     width: 100%;
 }
